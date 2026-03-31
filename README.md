@@ -34,6 +34,7 @@ This project is a single-file application (`index.html`). No complex dependencie
 2.  **Open the file:**
     Navigate to the project directory and double-click the `index.html` file. It will open directly in your web browser.
 
+---
 
 
 **📄 License** 
