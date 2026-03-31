@@ -29,32 +29,10 @@ This project is a single-file application (`index.html`). No complex dependencie
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Time7874/interactive-solar-system-css-js.git](https://github.com/Time7874/interactive-solar-system-css-js.git)
+    git clone https://github.com/nexverix/interactive-solar-system-css-js.git
     ```
 2.  **Open the file:**
     Navigate to the project directory and double-click the `index.html` file. It will open directly in your web browser.
-3.  **Deployment:** This project is ideal for hosting on **GitHub Pages** due to its pure front-end nature.
-
-### 💡 Core Implementation Details
-
-The smooth, continuous animation is achieved entirely through CSS using the `animation` property and the `rotate` keyframe.
-
-```css
-/* Core orbital animation */
-@keyframes rotate { 
-    from { transform: rotate(0deg); } 
-    to { transform: rotate(360deg); } 
-}
-
-.orbit {
-    /* Uses a custom property defined per planet (e.g., 5s for Mercury, 80s for Neptune) */
-    animation: rotate var(--speed) linear infinite;
-}
-.paused { 
-    /* The key to pausing */
-    animation-play-state: paused !important; 
-}
-```
 
 
 
