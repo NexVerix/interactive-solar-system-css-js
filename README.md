@@ -40,3 +40,6 @@ This project is a single-file application (`index.html`). No complex dependencie
 ```txt
 This project is licensed under the MIT License - see the LICENSE file for details.
 ```
+
+## 🚀 Built at NexVerix
+
